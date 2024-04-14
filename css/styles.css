@@ -500,16 +500,18 @@ margin-bottom: 16px;
 .footer-form {
   display: flex;
   align-items: center;
-
+gap: 24px;
 }
   
 .subscribe-email {
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
 background-color: transparent;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.subscribe-email::placeholder {
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 12px;
@@ -517,7 +519,6 @@ line-height: 2;
 letter-spacing: 0.04em;
 color: #fff;
 padding-left: 16px;
-margin-right: 24px;
 }
 .footer-button {
   font-family: "Roboto", sans-serif;
@@ -533,7 +534,7 @@ margin-right: 24px;
     text-align: center;
     color: #fff;
     border-radius: 4px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     border: none;
